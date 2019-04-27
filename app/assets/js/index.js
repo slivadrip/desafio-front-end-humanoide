@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$.getJSON('https://raw.githubusercontent.com/diogoqds/desafio-front-end-humanoide/master/server/data.json', function(data) {
+$.getJSON('https://raw.githubusercontent.com/slivadrip/desafio-front-end-humanoide/master/server/data.json', function(data) {
   $.each(data, function (key, item) {
     for (var count = 0; count < item.length; count++) {
       if (item[count].promotional_price) {

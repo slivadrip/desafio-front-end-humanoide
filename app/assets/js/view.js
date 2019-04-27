@@ -2,7 +2,7 @@ $(document).ready(function() {
     var products;
       $.ajax({
       type: 'GET',
-      url: 'https://raw.githubusercontent.com/diogoqds/desafio-front-end-humanoide/master/server/data.json',
+      url: 'https://raw.githubusercontent.com/slivadrip/desafio-front-end-humanoide/master/server/data.json',
       success: function(data) {
         products = JSON.parse(data);
           
